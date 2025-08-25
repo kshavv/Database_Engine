@@ -15,7 +15,6 @@
 4. Run ``mvn clean install -DskipTest``
 6. Import the project into your favorite editor. I strongly recommend Intellj.
     
-## Assignment Tasks
 
 ### 1. Implement B+Tree Index.
 The starter code has been provided in ``in/ac/iitd/db362/index/bplustree/BPlusTreeIndex.java``
@@ -60,11 +59,3 @@ mvn test
 
 There are two very simple tests that are provied in the ``src/test/java/in/ac/iitd/db362``. The ``CSVParserTest.java`` contains a ``@Disabled`` annotation for the ``testValidCSVParsing``  test. You can remove it after implementing the indexes to test parsing and index creation. To add new test cases, create new test files and follow similar syntax as already included ones. (should include a ``@Test`` annotation before the test function).
 
-
-  
-
-## How and What to submit
-
-**See assignment doc!**
-
-**Upload your patch file on Moodle by 26th March 2025 11:59PM**
